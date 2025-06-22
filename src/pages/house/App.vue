@@ -5,6 +5,7 @@ import {ElMessage, ElMessageBox} from 'element-plus'
 import { Delete, Plus, Picture } from '@element-plus/icons-vue'
 const houses = reactive([])
 const isSubmitting = ref(false)
+
 // 添加图片相关状态
 const fileList = ref([])
 const editFileList = ref([])
